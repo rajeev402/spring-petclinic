@@ -36,6 +36,14 @@
 
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
+      
+      <repositories>
+<repository>
+<id>nexus</id>
+<url>http://localhost:8081/repository/maven-public/</url>
+</repository>
+</repositories>
+      
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
