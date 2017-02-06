@@ -205,7 +205,7 @@
           <contextFolder>${basedir}/src/main/less</contextFolder>
         </configuration>
           
-   <repositories>
+    <repositories>
 <repository>
 <id>nexus</id>
 <url>http://localhost:8081/repository/maven-public/</url>
